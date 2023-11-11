@@ -1,0 +1,513 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: transparent;
+    background-image: radial-gradient(circle at 67% 83%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 1%,transparent 1%, transparent 5%,transparent 5%, transparent 100%),radial-gradient(circle at 24% 80%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 27%,transparent 27%, transparent 63%,transparent 63%, transparent 100%),radial-gradient(circle at 23% 5%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 26%,transparent 26%, transparent 82%,transparent 82%, transparent 100%),radial-gradient(circle at 21% 11%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 35%,transparent 35%, transparent 45%,transparent 45%, transparent 100%),radial-gradient(circle at 10% 11%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 21%,transparent 21%, transparent 81%,transparent 81%, transparent 100%),radial-gradient(circle at 19% 61%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 20%,transparent 20%, transparent 61%,transparent 61%, transparent 100%),radial-gradient(circle at 13% 77%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 63%,transparent 63%, transparent 72%,transparent 72%, transparent 100%),radial-gradient(circle at 30% 93%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 33%,transparent 33%, transparent 82%,transparent 82%, transparent 100%),linear-gradient(90deg, rgb(22, 176, 207),rgb(103, 7, 215));
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+.app-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.app {
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    background: linear-gradient(to top right, #0d0d0d, #babeba);
+}
+
+.app:nth-child(1) {
+    background: linear-gradient(to top right, #ffffff, #000000);
+}
+
+.app:nth-child(2) {
+    background: linear-gradient(to top right, #ffcc00, #d008ab);
+}
+
+.app:nth-child(3) {
+    background: linear-gradient(to top right, rgb(3, 216, 3), rgb(141, 141, 2) );
+}
+
+.app img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.app h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.app p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #615f5f;
+}
+
+.app a {
+    display: block;
+    margin: 15px 0;
+    font-size: 20px;
+    text-decoration: none;
+    color: #3498db;
+    transition: color 0.3s;
+}
+
+.app a:hover {
+    color: #297bbf;
+}
+
+footer p {
+    font-size: 16px;
+    margin-top: 140px;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.app:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Twitte.html */
+
+body.twitter-page {
+    background-image: url('desktop-wallpaper-black-marble-iphone.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.screenshot-box {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 0;
+    margin: 10px;
+    width: 230px;
+    height: 498px;
+    box-shadow: 0 4px 6px rgba(217, 216, 216, 0.1);
+    overflow: hidden;
+    display: inline-block;
+}
+
+.screenshot-box img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+}
+
+.app-screenshots {
+    text-align: center;
+}
+
+hr {
+    width: 70%;
+    height: 1px;
+    background-color: #e0dddd;
+    border: none;
+    margin-top: 50px;
+}
+
+/* CSS pour les boutons sociaux */
+.social-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0077B5;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+/* Style au survol du bouton Instagram */
+.social-button:hover {
+    background-color: #005885;
+}
+
+.social-button.twitter {
+    background-color: #1DA1F2;
+}
+
+/* Style au survol du bouton Twitter */
+.social-button.twitter:hover {
+    background-color: #1471B3;
+}
+
+body, h1, h2, p, button {
+    color: white;
+}
+
+.app-description p {
+    font-family: 'Roboto', monospace;
+}
+
+.screenshot-box:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/* Instagram.html */
+
+body.instagram-page {
+    background: linear-gradient(to top right, #ffcc00, #d008ab);
+}
+.navigation {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    color: #297bbf;
+}
+.screenshot-box2 {
+    border: 1px solid #282729;
+    border-radius: 10px;
+    padding: 0;
+    margin: 10px;
+    display: inline-block;
+    width: 230px;
+    height: 498px;
+}
+
+.screenshot-box2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    display: block;
+}
+
+.app-screenshots {
+    text-align: center;
+}
+.screenshot-box2 {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 0;
+    margin: 10px;
+    width: 230px;
+    height: 498px;
+    box-shadow: 0 4px 6px rgba(217, 216, 216, 0.1);
+    overflow: hidden;
+    display: inline-block;
+    transition: transform 0.3s;
+}
+
+.screenshot-box2 img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+}
+.screenshot-box2:hover {
+    transform: scale(1.2);
+}
+hr {
+    width: 70%;
+    height: 1px;
+    background-color: #e0dddd;
+    border: none;
+    margin-top: 50px;
+}
+hr + p {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.navigation {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.navigation a:hover {
+    color: #297bbf;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/* Spotify.html */
+
+.screenshot-box {
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.screenshot-box img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.spotify-page {
+    background: linear-gradient(to top right, #008000, #000000);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+}
+.navigation2 {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.navigation2 li {
+    margin: 0 20px;
+}
+
+.navigation2 a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navigation2 a:hover {
+    color: #297bbf;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/* Media Queries */
+
+/* Instagram.html */
+
+@media screen and (max-width: 768px) {
+    body {
+        margin: 0;
+    }
+
+    .navigation,
+    .screenshot-box2 {
+        text-align: center;
+    }
+
+    .screenshot-box2 img {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 5px;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        margin: 0;
+    }
+
+    .navigation,
+    .screenshot-box2 {
+        text-align: center;
+    }
+
+    .screenshot-box2 img {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 5px;
+        display: inline-block;
+    }
+}
+
+/* Spotify.html */
+
+@media screen and (max-width: 768px) {
+    body.spotify-page {
+        margin: 0;
+    }
+
+    .navigation2 {
+        text-align: center;
+    }
+
+    .screenshot-box {
+        text-align: center;
+    }
+
+    .screenshot-box img {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 5px;
+    }
+
+    .navigation2 a {
+        display: block;
+        margin: 10px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    body.spotify-page {
+        margin: 0;
+    }
+
+    .navigation2 {
+        text-align: center;
+    }
+
+    .screenshot-box {
+        text-align: center;
+    }
+
+    .screenshot-box img {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 5px;
+    }
+
+    .navigation2 a {
+        display: block;
+        margin: 10px;
+    }
+}
+
+/* Twitter.html */
+
+@media screen and (max-width: 768px) {
+    body.twitter-page {
+        margin: 0;
+    }
+
+    .screenshot-box {
+        text-align: center;
+    }
+
+    .screenshot-box img {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 5px;
+    }
+
+    .social-button,
+    .app-description p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body.twitter-page {
+        margin: 0;
+    }
+
+    .screenshot-box {
+        text-align: center;
+    }
+
+    .screenshot-box img {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 5px;
+    }
+
+    .social-button,
+    .app-description p {
+        text-align: center;
+    }
+}
+
+/* index.html */
+
+@media screen and (max-width: 768px) {
+    body {
+        margin: 0;
+    }
+
+    .app-list {
+        justify-content: center;
+    }
+
+    .app {
+        width: calc(50% - 20px);
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        margin: 0;
+    }
+
+    .app {
+        width: 100%;
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 240px) {
+    body {
+        margin: 0;
+    }
+
+    .app {
+        width: 100%;
+        margin: 0;
+    }
+}
